@@ -1,0 +1,198 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-white-color-info: rgba(255, 255, 255, 0.6);
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --background-color: #f5f4fa;
+  --background-color-footer: #2f303a;
+}
+.page {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*======Логотип======*/
+.logo {
+  font-family: Raleway;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--title-text-color);
+}
+
+.logo-accent-footer {
+  color: var(--primary-white-color);
+}
+/*=====Посилання=====*/
+.list {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.list-info {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.list:hover,
+.list:focus,
+.list-info:hover,
+.list-info:focus {
+  color: var(--accent-color);
+}
+
+/*=====Герой=====*/
+.section {
+  background-color: var(--background-color-footer);
+}
+
+.section-title {
+  font-weight: 900;
+  color: var(--primary-white-color);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button-bg {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  text-align: center;
+}
+
+/*======Портфоліо=====*/
+.caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.sub-subtitle {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+/*======Портфоліо кнопки=====*/
+
+.button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--background-color);
+  color: var(--title-text-color);
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+/*=====Заголовки=====*/
+
+.text-info {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*=====Абзаци=====*/
+.paragraph {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/*=====Фото працівників======*/
+.section-img {
+  background-color: var(--background-color);
+  letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.desc {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+/*======Футер=====*/
+
+.aside-adres {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  cursor: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.aside {
+  color: var(--primary-white-color-info);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  cursor: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer {
+  background-color: var(--background-color-footer);
+}
