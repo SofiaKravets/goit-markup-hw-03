@@ -21,26 +21,26 @@
   <body>
     <!--Секція header-->
     <header class="page-heade">
-      <div class="container">
+      <div class="container container-header">
+        <a class="header-logo" href="">Web<span class="header-logo-accent">Studio</span></a>
         <nav>
-          <a class="header-logo" href="">Web<span class="header-logo-accent">Studio</span></a>
           <ul class="header-list">
-            <li class="list">
+            <li class="item list">
               <a class="header-link link" href="Студия">Студия</a>
             </li>
-            <li class="list">
+            <li class="item list">
               <a class="header-link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="list">
+            <li class="item list">
               <a class="header-link link" href="Контакты">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="header-group">
-          <li class="list">
+          <li class="item list">
             <a class="header-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="list">
+          <li class="item list">
             <a class="header-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -50,12 +50,15 @@
     <main>
       <!--Секція Hero-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-butoon" type="button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero-butoon" type="button">Заказать услугу</button>
+        </div>
       </section>
       <!-- Секція Benefits -->
       <section class="benefits">
-        <ul>
+        <div class="container">
+        <ul class="benefits-item">
           <li class="list">
             <h3 class="benefits-title">Внимание к деталям</h3>
             <p class="benefits-p">
@@ -85,24 +88,28 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Секція About -->
       <section class="about">
+        <div class="container">
         <h2 class="about-title">Чем мы занимаемся</h2>
         <ul class="about-list">
-          <li class="list">
+          <li class="list about-item-list">
             <img src="./images/img1.jpg" alt="верстка" width="370" />
           </li>
-          <li class="list">
+          <li class="list about-item-list">
             <img src="./images/img2.jpg" alt="дизайн" width="370" />
           </li>
-          <li class="list">
+          <li class="list about-item-list">
             <img src="./images/img3.jpg" alt="внешнее оформление" width="370" />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Секція Team -->
       <section class="team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul>
           <li class="list">
@@ -142,10 +149,12 @@
             <p class="team-profesiya" lang="en">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!--Секція footer-->
     <footer class="footer">
+      <div class="container">
       <a class="footer-logo" href=""
         >Web<span class="footer-logo-accent">Studio</span></a
       >
@@ -168,6 +177,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>

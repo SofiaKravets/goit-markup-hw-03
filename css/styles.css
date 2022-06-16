@@ -35,9 +35,33 @@ body {
 .list {
   list-style: none;
 }
+    
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header-list {
+  display: flex;
+  margin-left: 92px;
+}
+
+.header-list .item + .item {
+  margin-left: 50px;
+}
 
 
 .header-logo {
+  display: block;
   font-family: "Raleway";
   color: var(--accent-color);
   font-weight: 700;
@@ -45,7 +69,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-logo-accent {
@@ -54,11 +79,14 @@ body {
 
 
 .header-link {
+  display: block;
   font-weight: 500;
   color: var(--title-color-dark);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -67,16 +95,28 @@ body {
 }
 
 .header-contact {
+  display: block;
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-contact:hover,
 .header-contact:focus {
   color: var(--accent-color);
+}
+
+.header-group {
+  display: flex;
+      margin-left: auto;
+}
+
+.header-group .item +.item {
+  margin-left: 50px;
 }
 
 .hero {
@@ -91,6 +131,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .hero-butoon {
@@ -105,6 +147,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .benefits-title {
@@ -114,12 +158,23 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .benefits-p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.benefits-item {
+  display: flex;
+}
+
+.benefits-item .list +.list {
+  margin-left: 50px;
 }
 
 .about-title {
@@ -129,6 +184,14 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-item-list:nth-child(n + 2) {
+  margin-left: 30px;
 }
 
 .team {
