@@ -42,8 +42,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container-header {
@@ -112,6 +110,7 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin: 0;
 }
 
 .header-contact:hover,
@@ -123,6 +122,7 @@ body {
   display: flex;
   margin-left: auto;
   padding: 0;
+
 }
 
 .header-group .item + .item {
@@ -131,6 +131,7 @@ body {
 
 .hero {
   background-color: var(--background-color-footer);
+  padding: 200px;
 }
 
 .hero-title {
@@ -156,6 +157,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -163,6 +165,14 @@ body {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 32px;
+}
+
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .benefits-title {
@@ -192,6 +202,12 @@ body {
   margin-left: 50px;
 }
 
+.about {
+  padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .about-title {
   color: var(--title-color-dark);
   font-weight: 700;
@@ -199,12 +215,10 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
 }
 
 .about-list {
   display: flex;
-  margin-bottom: 94px;
   padding: 0;
 }
 
@@ -214,11 +228,14 @@ body {
 
 .team {
   background-color: var(--background-color-team);
+    padding-top: 94px;
+      padding-bottom: 94px;
 }
 
 .team-list {
   display: flex;
   padding: 0;
+  margin: 0;
 }
 
 .team-item-list {
@@ -262,6 +279,7 @@ body {
 
 .footer {
   background-color: var(--background-color-footer);
+  padding: 60px 0;
 }
 
 .footer-logo {
@@ -281,6 +299,11 @@ body {
 .footer-list {
   padding: 0;
 }
+
+.footer-list-item {
+  margin-bottom: 9px;
+}
+
 
 .footer-address {
   color: var(--title-color-white);
@@ -329,6 +352,8 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  padding: 6px 22px;
+  margin-bottom: 50px;
 }
 
 .portfolio-button:hover,
@@ -342,6 +367,11 @@ body {
   flex-wrap: wrap;
   padding-left: 0;
 }
+.portfolio-list-item {
+padding: 20px 24px;
+
+}
+ 
 
 .portfolio-list > .list:nth-child(3n + 3) {
   margin-right: 0;
@@ -352,7 +382,7 @@ body {
 }
 
 .portfolio-list > li {
-  outline: 1px solid var(--outline-color);
+
   margin-bottom: 30px;
 }
 
