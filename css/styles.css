@@ -349,8 +349,8 @@ body {
 /*=====Portfolio=====*/
 
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-button-list {
@@ -395,6 +395,7 @@ body {
 padding: 20px 24px;
 border: 1px solid var(--outline-color);
 border-top: none;
+margin-top: -5px;
 }
  
 .portfolio-list > .list:nth-child(3n + 3) {
